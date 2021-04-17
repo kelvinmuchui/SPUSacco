@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardBackgroundColor="#DD0E36"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Paid"
+            android:id="@+id/tranDate"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="KSH 2000"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/loanAmount"
+            android:background="#C64A5B"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tranDate"
+            android:textStyle="italic"
+            android:text="Period"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#fff"
+            android:id="@+id/transMode"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/transMode"
+            android:layout_below="@id/tranDate"
+            android:text=" 12 Month "
+
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/loantv"
+            android:textColor="#fff"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text=" PAY "
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="#C64A5B"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/transpay"
+            android:textColor="#fff"
+
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

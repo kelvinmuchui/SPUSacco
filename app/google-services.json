@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "331390304525",
+    "firebase_url": "https://myclinic-db0fb.firebaseio.com",
+    "project_id": "myclinic-db0fb",
+    "storage_bucket": "myclinic-db0fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331390304525:android:124bcd99a36874dc153044",
+        "android_client_info": {
+          "package_name": "com.kelvin.myclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331390304525-vvf6p8m4ki6148o3ivntltuslv5c4npf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelvin.myclinic",
+            "certificate_hash": "555dfec1b9f8c1d7cfa3cfe8b88e70e6771765b7"
+          }
+        },
+        {
+          "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSP8HiIMqER9oiBitDaMYtm53jbdttVv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331390304525:android:2c44e46d2fcdd5f9153044",
+        "android_client_info": {
+          "package_name": "com.kelvin.mydoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331390304525-k6k18idt5kt3ghq0v9tqavdncmitaq44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelvin.mydoctor",
+            "certificate_hash": "555dfec1b9f8c1d7cfa3cfe8b88e70e6771765b7"
+          }
+        },
+        {
+          "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSP8HiIMqER9oiBitDaMYtm53jbdttVv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331390304525:android:35570f32e70c620c153044",
+        "android_client_info": {
+          "package_name": "com.kelvin.myfinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331390304525-ps2pvsnv5fn5hmtqc9p3fummqs4b64r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelvin.myfinalproject",
+            "certificate_hash": "555dfec1b9f8c1d7cfa3cfe8b88e70e6771765b7"
+          }
+        },
+        {
+          "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSP8HiIMqER9oiBitDaMYtm53jbdttVv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331390304525-j7b51s70rb08timlm0jil2k1tqp313hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

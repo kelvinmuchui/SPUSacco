@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardBackgroundColor="#DD0E36"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/02/2020"
+            android:id="@+id/tranDate"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="KSH 2000"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/transAmount"
+            android:background="#C64A5B"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="italic"
+            android:text="Cash"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:id="@+id/transMode"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text=" View Transaction "
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/transView"
+            android:textColor="#fff"
+            android:background="#AF2C43"
+            />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

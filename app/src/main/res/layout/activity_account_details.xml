@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.materiallogin.AccountDetailsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#025C9F">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/memberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+
+                />
+            <TextView
+                android:id="@+id/memberPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="077373723"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/memberName"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_below="@id/memberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+
+                />
+            <TextView
+                android:id="@+id/memberAccountNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KE 3242 234 2342"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/memberPhone"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:layout_below="@id/memberPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account NO:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+
+                />
+            <TextView
+                android:id="@+id/Amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KSH 0.0"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/memberAccountNo"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_below="@id/memberAccountNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_deposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/Amount"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Deposit"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_withdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/Amount"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="WithDraw"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_editDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_below="@id/btn_deposit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Edit Details"/>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

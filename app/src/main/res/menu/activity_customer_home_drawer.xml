@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_trans"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_loan"
+            android:icon="@drawable/ic_loans"
+            android:title="Loans" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="privacy_policy" />
+        </menu>
+    </item>
+
+</menu>
